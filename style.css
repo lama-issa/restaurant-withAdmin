@@ -1,0 +1,136 @@
+html{
+    --bColor:black;
+    --wColor:#fff;
+    --rColor:rgb(99, 19, 19);
+    --r2Color:rgb(211, 111, 111);
+    --gColor:rgb(160, 159, 159);
+    --bl2Color:rgb(138, 196, 227);
+    --blColor:rgb(14, 22, 249);
+}
+.Sign_up_item{
+    width: 380px;
+    background-color: var(--bl2Color);
+    height: 650px;
+    margin: auto;
+    border-radius: 10px;   
+}
+
+.Sign_up_item h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Sign_up_item h4{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.form_sign_up{
+    width: 300px;
+    margin :auto;
+}
+.form_sign_up label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.form_sign_up input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid var(--gColor);
+    border-radius: 6px;
+}
+
+
+
+.Sign_up_item p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.sign_up_p2{
+    text-align: center;
+    color: var(--gColor);
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+.login_item{
+    width: 380px;
+    background-color: var(--bl2Color);
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;   
+}
+
+.login_item h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.form_login{
+    width: 300px;
+    margin :auto;
+}
+.form_login label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.form_login input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid var(--gColor);
+    border-radius: 6px;
+}
+
+.form_login input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: var(--blColor);
+    border: none;
+    color: var(--wColor);
+    font-size: 16px;
+}
+
+.form_sign_up input[type="submit"]{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: var(--blColor);
+    border: none;
+    color: var(--wColor);
+    font-size: 16px;
+}
+
+.login_p2{
+    text-align: center;
+    color: var(--gColor);
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.login{
+    padding-top: 140px;
+}
+.user_type{
+    padding: 7px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+}
+.input_photo{
+    background-color: var(--wColor);
+}
+
+.tre{
+    background-color: var(--bl2Color);
+    
+}
+
+.table{
+    width: 80%;
+    margin: auto;
+}
